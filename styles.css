@@ -1,17 +1,41 @@
-*{
-    background-color: rgb(140, 140, 255);
-}
+/* *{
+    border-style: solid;
+    border-color: rgb(255, 255, 255);
+} */
 
 body{
     display: flex;
     flex-direction: column;
 }
 
-.header{
+.top{
     background-color: white;
     border-style: dashed;
     display: flex;
     min-height: 300px;
     flex-direction: column;
+    background-color: rgb(26, 43, 58);
+}
 
+.header{
+    display: flex;
+    justify-content: space-around;
+}
+
+a{
+    text-decoration: none;
+    color: white;
+}
+
+ul{
+    list-style-type: none;
+    display: flex;
+    padding: 8px 16px;
+    margin: 0;
+    gap: 18px;
+}
+
+.header-logo{
+    max-width: 20%;
+    max-height: 20%
 }
