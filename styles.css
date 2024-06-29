@@ -106,3 +106,8 @@ p{
     font-size: 12px;
 }
 
+.bottom{
+    background-color: lightgray;
+    display: flex;
+    flex-direction: column;
+}
