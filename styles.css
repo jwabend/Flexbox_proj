@@ -34,7 +34,7 @@ button{
     min-height: 350px;
     background-color: rgb(26, 43, 58);
     justify-content: center;
-    padding-bottom: 24px;
+    padding: 14px 50px;
 }
 
 .left,.right{
@@ -42,8 +42,12 @@ button{
     flex-direction: column;
     padding: 8px 16px;
     /* margin-left: 48px; */
-    width: 40%;  
+    
     gap: 26px;
+}
+
+.right{
+    max-width: 60%;
 }
 
 .left-content {
