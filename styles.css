@@ -1,7 +1,3 @@
-/* *{
-    border-style: solid;
-    border-color: rgb(255, 255, 255);
-} */
 html, body {
     height: 100%;
     margin: 0;
@@ -128,4 +124,81 @@ p,.sticky-footer {
     background-color: lightgray;
     display: flex;
     flex-direction: column;
+    align-items: center;
+    padding-bottom: 50px;
 }
+
+.quote-container {
+    display: flex;
+    flex-direction: column;
+    padding: 14px 200px;
+}
+
+.author {
+    display: flex;
+    padding-left: 450px;
+    font-weight: bold;
+    justify-content: space-around;
+}
+
+.author p {
+    color: black;
+}
+
+.quote {
+    width: 900px;
+    padding-left: 70px;
+    height: 200px;
+}
+
+.quote p {
+    font-size: 36px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: italic;
+    color: #1F2937;
+}
+
+.bottom {
+    display: flex;
+    justify-content: center;
+    padding: 36px 36px;
+    align-items: center;
+    
+}
+
+.bottom-container {
+    display: flex;
+    /* border-style: solid; */
+    border-radius: 8px;
+    width: 900px;
+    justify-content: space-evenly;
+    background-color: rgb(76, 76, 248);
+    align-items: center;
+}
+
+.bottom-right {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    margin-top: auto;
+    padding: 16px;
+    width: 100%;
+    background-color: #1F2937;
+}
+
+
+.top, .top-content, .middle, .bottom {
+    flex: 1;
+    flex-shrink: 0;
+    flex-basis: auto;
+}
+
+h3{
+    color: white;
+}
+
